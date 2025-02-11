@@ -1,7 +1,7 @@
 let leftPos = 0
 let bottomPos = 0
 document.getElementById('yessir').addEventListener('click', () => {
-    alert('I love you so much! On this special day, I want to celebrate love with you. Join me for a romantic date where we will watch a Movie and Play a Game of your choice!💖 Be Safe! IMISSYOUU!!') 
+    alert('I love you so much! Be Safe! IMISSYOUU!!') 
 })
 document.getElementById('nooo').addEventListener('mouseover', () => {
     leftPos = Math.floor(Math.random() * (50 - (-50) + 1)) + (-50);
